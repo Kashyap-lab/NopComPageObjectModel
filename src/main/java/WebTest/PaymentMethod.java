@@ -12,7 +12,7 @@ public class PaymentMethod extends Utils
     private By _cardHolderName = By.xpath("//input[@id='CardholderName']");
     private String cardHolderName ="k k shah";
     private By _cardNum = By.xpath("//input[@name='CardNumber']");
-    private String cardNum = "1234 1234 1234 1234";
+    private String cardNum = "55555555555544444";
     private By _expireMonth = By.xpath("//select[@name='ExpireMonth']");
     private String expireMonth = "7";
     private By _expireYear = By.xpath("//select[@name='ExpireYear']");
