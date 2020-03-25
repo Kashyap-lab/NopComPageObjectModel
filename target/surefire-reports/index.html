@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 6 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="WebTest.TestSuit" hash-for-method="UserShouldAbleToRegisterSuccessfully">UserShouldAbleToRegisterSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="WebTest.TestSuit" hash-for-method="UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully">UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="WebTest.TestSuit" hash-for-method="guestUserShouldBeAbleToCheckoutSuccessfully">guestUserShouldBeAbleToCheckoutSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="WebTest.TestSuit" hash-for-method="userShouldBeAbleToVerifyCurrencyChange">userShouldBeAbleToVerifyCurrencyChange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="WebTest.TestSuit" hash-for-method="verifyAddToCartButtonIsPresentInAllFeaturedProducts">verifyAddToCartButtonIsPresentInAllFeaturedProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="WebTest.TestSuit" hash-for-method="verifyAddToCompareButtonForEachProduct">verifyAddToCompareButtonForEachProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="WebTest.TestSuit" hash-for-method="RegisteredUserShouldBeAbleToReferAFriendSuccessfully">RegisteredUserShouldBeAbleToReferAFriendSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="WebTest.TestSuit" hash-for-method="UserShouldBeAbleToSortProductHighToLowByPrice">UserShouldBeAbleToSortProductHighToLowByPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="WebTest.TestSuit" hash-for-method="nonRegisterUserShouldNotBeAbleToReferAProductToAFriend">nonRegisterUserShouldNotBeAbleToReferAProductToAFriend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="WebTest.TestSuit" hash-for-method="userShouldBeAbleToAddNewCommentOnNopCommerceWeb">userShouldBeAbleToAddNewCommentOnNopCommerceWeb</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">WebTest.TestSuit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserShouldAbleToRegisterSuccessfully">
+                  </a> <!-- UserShouldAbleToRegisterSuccessfully -->
+                  <span class="method-name">UserShouldAbleToRegisterSuccessfully</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.result&quot;}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;KASH-HP&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Kash\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d7395fb9954c3b7785581f33fdbed92a
+*** Element info: {Using=class name, value=result}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at WebTest.Utils.getTextFromElement(Utils.java:30)
+	at WebTest.Utils.assertTextMessage(Utils.java:81)
+	at WebTest.RegistrationResultPage.VerifyUserRegistrationSuccessMessage(RegistrationResultPage.java:12)
+	at WebTest.TestSuit.UserShouldAbleToRegisterSuccessfully(TestSuit.java:37)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully">
+                  </a> <!-- UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully -->
+                  <span class="method-name">UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully</span>
+                  <div class="stack-trace">java.lang.AssertionError: Compare products expected [compare products] but found [page not found]
+	at WebTest.Utils.assertTextMessage(Utils.java:82)
+	at WebTest.ProductComparison.VerifyUserIsOnComparisionPage(ProductComparison.java:10)
+	at WebTest.TestSuit.UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully(TestSuit.java:49)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="guestUserShouldBeAbleToCheckoutSuccessfully">
+                  </a> <!-- guestUserShouldBeAbleToCheckoutSuccessfully -->
+                  <span class="method-name">guestUserShouldBeAbleToCheckoutSuccessfully</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//strong[contains(text(),&apos;processed&apos;)]&quot;}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;KASH-HP&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Kash\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e0cb4110ef291e76d0be2676c7f969c3
+*** Element info: {Using=xpath, value=//strong[contains(text(),&apos;processed&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at WebTest.Utils.clickOnElement(Utils.java:23)
+	at WebTest.CheckoutResult.verifyCheckoutSuccessMessage(CheckoutResult.java:17)
+	at WebTest.TestSuit.guestUserShouldBeAbleToCheckoutSuccessfully(TestSuit.java:129)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userShouldBeAbleToVerifyCurrencyChange">
+                  </a> <!-- userShouldBeAbleToVerifyCurrencyChange -->
+                  <span class="method-name">userShouldBeAbleToVerifyCurrencyChange</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	$ not foundЂ1032.00 expected [true] but found [false],
+	$ not foundЂ1548.00 expected [true] but found [false],
+	$ not foundЂ210.70 expected [true] but found [false],
+	$ not foundЂ21.50 expected [true] but found [false]
+	at WebTest.ChangeCurrency.verifyCurrencyChangeFromUsDollarToEuro(ChangeCurrency.java:34)
+	at WebTest.TestSuit.userShouldBeAbleToVerifyCurrencyChange(TestSuit.java:143)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddToCartButtonIsPresentInAllFeaturedProducts">
+                  </a> <!-- verifyAddToCartButtonIsPresentInAllFeaturedProducts -->
+                  <span class="method-name">verifyAddToCartButtonIsPresentInAllFeaturedProducts</span>
+                  <div class="stack-trace">java.lang.AssertionError: Some of items does not have ADD TO CART button expected [4] but found [1]
+	at WebTest.HomePage.checkAddtoCartButtonOnAllProducts(HomePage.java:53)
+	at WebTest.TestSuit.verifyAddToCartButtonIsPresentInAllFeaturedProducts(TestSuit.java:151)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddToCompareButtonForEachProduct">
+                  </a> <!-- verifyAddToCompareButtonForEachProduct -->
+                  <span class="method-name">verifyAddToCompareButtonForEachProduct</span>
+                  <div class="stack-trace">java.lang.AssertionError: £ not found  expected [true] but found [false]
+	at WebTest.TestSuit.verifyAddToCompareButtonForEachProduct(TestSuit.java:110)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">WebTest.TestSuit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisteredUserShouldBeAbleToReferAFriendSuccessfully">
+                  </a> <!-- RegisteredUserShouldBeAbleToReferAFriendSuccessfully -->
+                  <span class="method-name">RegisteredUserShouldBeAbleToReferAFriendSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserShouldBeAbleToSortProductHighToLowByPrice">
+                  </a> <!-- UserShouldBeAbleToSortProductHighToLowByPrice -->
+                  <span class="method-name">UserShouldBeAbleToSortProductHighToLowByPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nonRegisterUserShouldNotBeAbleToReferAProductToAFriend">
+                  </a> <!-- nonRegisterUserShouldNotBeAbleToReferAProductToAFriend -->
+                  <span class="method-name">nonRegisterUserShouldNotBeAbleToReferAProductToAFriend</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userShouldBeAbleToAddNewCommentOnNopCommerceWeb">
+                  </a> <!-- userShouldBeAbleToAddNewCommentOnNopCommerceWeb -->
+                  <span class="method-name">userShouldBeAbleToAddNewCommentOnNopCommerceWeb</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;WebTest.BaseTest&quot;/&gt;
+      &lt;class name=&quot;WebTest.TestSuit&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'guestUserShouldBeAbleToCheckoutSuccessfully')
+data.setCell(0, 2, 'WebTest.TestSuit')
+data.setCell(0, 3, 102087);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'UserShouldAbleToRegisterSuccessfully')
+data.setCell(1, 2, 'WebTest.TestSuit')
+data.setCell(1, 3, 55693);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'RegisteredUserShouldBeAbleToReferAFriendSuccessfully')
+data.setCell(2, 2, 'WebTest.TestSuit')
+data.setCell(2, 3, 24449);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully')
+data.setCell(3, 2, 'WebTest.TestSuit')
+data.setCell(3, 3, 16224);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'userShouldBeAbleToAddNewCommentOnNopCommerceWeb')
+data.setCell(4, 2, 'WebTest.TestSuit')
+data.setCell(4, 3, 11595);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'nonRegisterUserShouldNotBeAbleToReferAProductToAFriend')
+data.setCell(5, 2, 'WebTest.TestSuit')
+data.setCell(5, 3, 11322);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'UserShouldBeAbleToSortProductHighToLowByPrice')
+data.setCell(6, 2, 'WebTest.TestSuit')
+data.setCell(6, 3, 6192);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'userShouldBeAbleToVerifyCurrencyChange')
+data.setCell(7, 2, 'WebTest.TestSuit')
+data.setCell(7, 3, 2512);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyAddToCompareButtonForEachProduct')
+data.setCell(8, 2, 'WebTest.TestSuit')
+data.setCell(8, 3, 82);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyAddToCartButtonIsPresentInAllFeaturedProducts')
+data.setCell(9, 2, 'WebTest.TestSuit')
+data.setCell(9, 3, 52);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">WebTest.TestSuit</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisteredUserShouldBeAbleToReferAFriendSuccessfully</span>
+                <span class="method-start">9742 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=RegisteredUserShouldBeAbleToReferAFriendSuccessfully status=SUCCESS method=TestSuit...)</span>
+                <span class="method-start">34200 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">34893 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UserShouldAbleToRegisterSuccessfully</span>
+                <span class="method-start">42801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=UserShouldAbleToRegisterSuccessfully status=FAILURE method=TestSuit.UserShouldAbleT...)</span>
+                <span class="method-start">98507 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">99553 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully</span>
+                <span class="method-start">107523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully status=FAILURE method=Tes...)</span>
+                <span class="method-start">123748 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">124896 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UserShouldBeAbleToSortProductHighToLowByPrice</span>
+                <span class="method-start">132750 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=UserShouldBeAbleToSortProductHighToLowByPrice status=SUCCESS method=TestSuit.UserSh...)</span>
+                <span class="method-start">138942 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">139722 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">guestUserShouldBeAbleToCheckoutSuccessfully</span>
+                <span class="method-start">148597 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=guestUserShouldBeAbleToCheckoutSuccessfully status=FAILURE method=TestSuit.guestUse...)</span>
+                <span class="method-start">250687 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">251692 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">nonRegisterUserShouldNotBeAbleToReferAProductToAFriend</span>
+                <span class="method-start">259315 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=nonRegisterUserShouldNotBeAbleToReferAProductToAFriend status=SUCCESS method=TestSu...)</span>
+                <span class="method-start">270638 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">271271 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userShouldBeAbleToAddNewCommentOnNopCommerceWeb</span>
+                <span class="method-start">278959 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=userShouldBeAbleToAddNewCommentOnNopCommerceWeb status=SUCCESS method=TestSuit.user...)</span>
+                <span class="method-start">290554 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">291173 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">userShouldBeAbleToVerifyCurrencyChange</span>
+                <span class="method-start">300842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=userShouldBeAbleToVerifyCurrencyChange status=FAILURE method=TestSuit.userShouldBeA...)</span>
+                <span class="method-start">303355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">304422 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyAddToCartButtonIsPresentInAllFeaturedProducts</span>
+                <span class="method-start">310477 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyAddToCartButtonIsPresentInAllFeaturedProducts status=FAILURE method=TestSuit....)</span>
+                <span class="method-start">310529 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">311592 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyAddToCompareButtonForEachProduct</span>
+                <span class="method-start">320167 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyAddToCompareButtonForEachProduct status=FAILURE method=TestSuit.verifyAddToCo...)</span>
+                <span class="method-start">320250 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

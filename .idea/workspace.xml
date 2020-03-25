@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c78c6f35-2847-4ab3-a4f2-acd420440501" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZXAo6vlSJzC8IlKUXTIXLtyW0Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NopComPageObjectModelHybrid" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kash\NopComPageObjectModel\src\test\Resources\BrowserDriver" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestSuit">
+    <configuration name="TestSuit" type="TestNG" nameIsGenerated="true">
+      <module name="NopComPageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="userShouldBeAbleToAddNewCommentOnNopCommerceWeb" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.RegisteredUserShouldBeAbleToReferAFriendSuccessfully" type="TestNG" nameIsGenerated="true">
+      <module name="NopComPageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="RegisteredUserShouldBeAbleToReferAFriendSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.UserShouldAbleToRegisterSuccessfully" type="TestNG" nameIsGenerated="true">
+      <module name="NopComPageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="UserShouldAbleToRegisterSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopComPageObjectModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully" type="TestNG" nameIsGenerated="true">
+      <module name="NopComPageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea  -Dbrowser=firefox -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.UserShouldBeAbleToSortProductHighToLowByPrice" type="TestNG" nameIsGenerated="true">
+      <module name="NopComPageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="UserShouldBeAbleToSortProductHighToLowByPrice" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=firefox -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.guestUserShouldBeAbleToCheckoutSuccessfully" type="TestNG" nameIsGenerated="true">
+      <module name="NopComPageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="guestUserShouldBeAbleToCheckoutSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=firefox -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.nonRegisterUserShouldNotBeAbleToReferAProductToAFriend" type="TestNG" nameIsGenerated="true">
+      <module name="NopComPageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="nonRegisterUserShouldNotBeAbleToReferAProductToAFriend" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=firefox -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.userShouldBeAbleToVerifyCurrencyChange" type="TestNG" nameIsGenerated="true">
+      <module name="NopComPageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="userShouldBeAbleToVerifyCurrencyChange" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea  -Dbrowser=firefox -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.verifyAddToCartButtonIsPresentInAllFeaturedProducts" type="TestNG" nameIsGenerated="true">
+      <module name="NopComPageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="verifyAddToCartButtonIsPresentInAllFeaturedProducts" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.verifyAddToCartButtonIsPresentInAllFeaturedProducts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopComPageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="verifyAddToCartButtonIsPresentInAllFeaturedProducts" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=firefox -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.verifyAddToCompareButtonForEachProduct" type="TestNG" nameIsGenerated="true">
+      <module name="NopComPageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
+      <option name="METHOD_NAME" value="verifyAddToCompareButtonForEachProduct" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=firefox -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.TestSuit.guestUserShouldBeAbleToCheckoutSuccessfully" />
+      <item itemvalue="TestNG.TestSuit.nonRegisterUserShouldNotBeAbleToReferAProductToAFriend" />
+      <item itemvalue="TestNG.TestSuit.RegisteredUserShouldBeAbleToReferAFriendSuccessfully" />
+      <item itemvalue="TestNG.TestSuit.UserShouldAbleToRegisterSuccessfully" />
+      <item itemvalue="TestNG.TestSuit" />
+      <item itemvalue="TestNG.TestSuit.UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully" />
+      <item itemvalue="TestNG.TestSuit.UserShouldBeAbleToSortProductHighToLowByPrice" />
+      <item itemvalue="TestNG.TestSuit.userShouldBeAbleToVerifyCurrencyChange" />
+      <item itemvalue="TestNG.TestSuit.verifyAddToCartButtonIsPresentInAllFeaturedProducts" />
+      <item itemvalue="TestNG.TestSuit.verifyAddToCompareButtonForEachProduct" />
+      <item itemvalue="TestNG.TestSuit.UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestSuit.UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c78c6f35-2847-4ab3-a4f2-acd420440501" name="Default Changelist" comment="" />
+      <created>1584975236079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584975236079</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.RegisteredUserShouldBeAbleToReferAFriendSuccessfully" timestamp="1585068572710">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.RegisteredUserShouldBeAbleToReferAFriendSuccessfully/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585068572710" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.RegisteredUserShouldBeAbleToReferAFriendSuccessfully_(1)" timestamp="1585092405722">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.RegisteredUserShouldBeAbleToReferAFriendSuccessfully_(1)/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585092405722" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.UserShouldAbleToRegisterSuccessfully" timestamp="1585067851635">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.UserShouldAbleToRegisterSuccessfully/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585067851635" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.UserShouldAbleToRegisterSuccessfully_(1)" timestamp="1585086325408">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.UserShouldAbleToRegisterSuccessfully_(1)/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585086325408" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully" timestamp="1585067895570">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585067895570" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully_(1)" timestamp="1585071409642">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully_(1)/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585071409642" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.UserShouldBeAbleToSortProductHighToLowByPrice" timestamp="1585068692738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.UserShouldBeAbleToSortProductHighToLowByPrice/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585068692738" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.UserShouldBeAbleToSortProductHighToLowByPrice_(1)" timestamp="1585071560943">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.UserShouldBeAbleToSortProductHighToLowByPrice_(1)/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585071560943" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.guestUserShouldBeAbleToCheckoutSuccessfully" timestamp="1585069129918">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.guestUserShouldBeAbleToCheckoutSuccessfully/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585069129918" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.guestUserShouldBeAbleToCheckoutSuccessfully_(1)" timestamp="1585071656931">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.guestUserShouldBeAbleToCheckoutSuccessfully_(1)/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585071656931" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.nonRegisterUserShouldNotBeAbleToReferAProductToAFriend" timestamp="1585068620939">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.nonRegisterUserShouldNotBeAbleToReferAProductToAFriend/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585068620939" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.nonRegisterUserShouldNotBeAbleToReferAProductToAFriend_(1)" timestamp="1585071513412">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.nonRegisterUserShouldNotBeAbleToReferAProductToAFriend_(1)/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585071513412" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.userShouldBeAbleToAddNewCommentOnNopCommerceWeb" timestamp="1585069269931">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.userShouldBeAbleToAddNewCommentOnNopCommerceWeb/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585069269931" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.userShouldBeAbleToAddNewCommentOnNopCommerceWeb_(1)" timestamp="1585093376556">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.userShouldBeAbleToAddNewCommentOnNopCommerceWeb_(1)/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585093376556" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.userShouldBeAbleToVerifyCurrencyChange" timestamp="1585069395985">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.userShouldBeAbleToVerifyCurrencyChange/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585069395985" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.userShouldBeAbleToVerifyCurrencyChange_(1)" timestamp="1585071850763">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.userShouldBeAbleToVerifyCurrencyChange_(1)/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585071850763" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.verifyAddToCartButtonIsPresentInAllFeaturedProducts" timestamp="1585069476133">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.verifyAddToCartButtonIsPresentInAllFeaturedProducts/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585069476133" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.verifyAddToCartButtonIsPresentInAllFeaturedProducts_(1)" timestamp="1585086187805">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.verifyAddToCartButtonIsPresentInAllFeaturedProducts_(1)/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585086187805" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.verifyAddToCompareButtonForEachProduct" timestamp="1585068768571">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.verifyAddToCompareButtonForEachProduct/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585068768571" />
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.verifyAddToCompareButtonForEachProduct_(1)" timestamp="1585071608291">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#TestSuit.verifyAddToCompareButtonForEachProduct_(1)/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585071608291" />
+    <state x="413" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1584986106464">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1584986106464" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585133970474">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585094592396" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585133970474" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584979421130">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1584979421130" />
+    <state x="463" y="80" key="FileChooserDialogImpl" timestamp="1585132888064">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="80" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585094373183" />
+    <state x="463" y="80" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585132888064" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1585133973997">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585094636308" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585133973997" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1585133973997">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585094636308" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585133973997" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1585133973996">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585094636307" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585133973996" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1585133973997">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1585094636308" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585133973997" />
+    <state width="1306" height="211" key="GridCell.Tab.1.bottom" timestamp="1584997786129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="211" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1584997786129" />
+    <state width="1306" height="211" key="GridCell.Tab.1.center" timestamp="1584997786129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="211" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1584997786129" />
+    <state width="1306" height="211" key="GridCell.Tab.1.left" timestamp="1584997786128">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="211" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1584997786128" />
+    <state width="1306" height="211" key="GridCell.Tab.1.right" timestamp="1584997786129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="211" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1584997786129" />
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1584976184040">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1584976184040" />
+    <state x="65" y="58" key="new project wizard" timestamp="1584997979973">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="58" key="new project wizard/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1584997979973" />
+  </component>
+</project>

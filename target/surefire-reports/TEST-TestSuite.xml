@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="322.269" tests="10" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Kash\NopComPageObjectModel\target\test-classes;C:\Users\Kash\NopComPageObjectModel\target\classes;C:\Users\Kash\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Kash\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Kash\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Kash\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Kash\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Kash\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Kash\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Kash\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Kash\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Kash\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Kash\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Kash\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Kash\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Kash\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Kash\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Kash\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Kash\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Kash\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Kash\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Kash\AppData\Local\Temp\surefire4801015945274064868\surefirebooter5642166101707201250.jar C:\Users\Kash\AppData\Local\Temp\surefire4801015945274064868 2020-03-25T11-12-46_578-jvmRun1 surefire7714670297583647482tmp surefire_03797910606848548708tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Kash\NopComPageObjectModel\target\test-classes;C:\Users\Kash\NopComPageObjectModel\target\classes;C:\Users\Kash\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Kash\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Kash\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Kash\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Kash\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Kash\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Kash\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Kash\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Kash\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Kash\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Kash\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Kash\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Kash\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Kash\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Kash\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Kash\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Kash\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Kash\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Kash\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Kash\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Kash"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="basedir" value="C:\Users\Kash\NopComPageObjectModel"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Kash\AppData\Local\Temp\surefire4801015945274064868\surefirebooter5642166101707201250.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="Kash"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="Sauce" value="false"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Kash\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Kash\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="user.dir" value="C:\Users\Kash\NopComPageObjectModel"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\SOFT\maven\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\HP SimplePass 2011\x64;C:\Program Files (x86)\HP SimplePass 2011\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="RegisteredUserShouldBeAbleToReferAFriendSuccessfully" classname="WebTest.TestSuit" time="24.458"/>
+  <testcase name="UserShouldAbleToRegisterSuccessfully" classname="WebTest.TestSuit" time="55.707">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.result&quot;}&#10;  (Session info: chrome=80.0.3987.149)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;KASH-HP&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Kash\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: d7395fb9954c3b7785581f33fdbed92a&#10;*** Element info: {Using=class name, value=result}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".result"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KASH-HP', ip: '192.168.0.16', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Kash\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d7395fb9954c3b7785581f33fdbed92a
+*** Element info: {Using=class name, value=result}
+	at WebTest.TestSuit.UserShouldAbleToRegisterSuccessfully(TestSuit.java:37)
+</failure>
+    <system-out><![CDATA[We are using... chromebrowser
+Kashyup_shah
+e85e33aa-4235-4846-938b-9c49abfd477d
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 13383
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mar 25, 2020 11:13:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585134815.291][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134815.394][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134815.496][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134815.597][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134815.698][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134815.802][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134815.907][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134816.119][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134816.229][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134816.385][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134816.505][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134816.611][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134816.713][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134816.816][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134816.917][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134817.042][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134817.144][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134817.246][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134818.500][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134818.638][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134818.747][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully" classname="WebTest.TestSuit" time="16.222">
+    <failure message="Compare products expected [compare products] but found [page not found]" type="java.lang.AssertionError">java.lang.AssertionError: Compare products expected [compare products] but found [page not found]
+	at WebTest.TestSuit.UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully(TestSuit.java:49)
+</failure>
+    <system-out><![CDATA[We are using... chromebrowser
+Kashyup_shah
+e85e33aa-4235-4846-938b-9c49abfd477d
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 9662
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mar 25, 2020 11:14:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585134879.756][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134879.868][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134879.971][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134880.078][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134880.183][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134880.285][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134880.522][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134880.624][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134880.852][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134880.955][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134881.059][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134881.187][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134881.290][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134881.392][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134881.496][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134881.601][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134881.706][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134881.810][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134881.912][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134882.016][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134883.332][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134883.515][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134883.738][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134883.840][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134883.941][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134897.827][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134898.116][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="UserShouldBeAbleToSortProductHighToLowByPrice" classname="WebTest.TestSuit" time="6.191"/>
+  <testcase name="guestUserShouldBeAbleToCheckoutSuccessfully" classname="WebTest.TestSuit" time="102.099">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//strong[contains(text(),&apos;processed&apos;)]&quot;}&#10;  (Session info: chrome=80.0.3987.149)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;KASH-HP&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Kash\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e0cb4110ef291e76d0be2676c7f969c3&#10;*** Element info: {Using=xpath, value=//strong[contains(text(),&apos;processed&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//strong[contains(text(),'processed')]"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KASH-HP', ip: '192.168.0.16', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Kash\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e0cb4110ef291e76d0be2676c7f969c3
+*** Element info: {Using=xpath, value=//strong[contains(text(),'processed')]}
+	at WebTest.TestSuit.guestUserShouldBeAbleToCheckoutSuccessfully(TestSuit.java:129)
+</failure>
+    <system-out><![CDATA[We are using... chromebrowser
+Kashyup_shah
+e85e33aa-4235-4846-938b-9c49abfd477d
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 42473
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mar 25, 2020 11:15:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585134919.968][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134920.069][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134920.171][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134920.273][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134920.378][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134920.482][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134920.588][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134920.692][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134920.801][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134920.903][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134921.106][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134921.298][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134921.399][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134921.512][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134921.614][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134921.717][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134921.819][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134921.920][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134922.025][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134922.128][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134922.232][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134922.342][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134922.444][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134922.545][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134922.648][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134922.756][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134922.860][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134922.966][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134924.339][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134924.442][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134924.543][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134924.645][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134924.933][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134925.034][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134925.138][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134925.242][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134935.800][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134936.044][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134936.147][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134936.249][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134936.353][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134948.777][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134948.879][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134948.983][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134949.089][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134955.730][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134955.831][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134955.934][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134956.036][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134956.138][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134956.241][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134956.476][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134956.578][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585134956.689][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="nonRegisterUserShouldNotBeAbleToReferAProductToAFriend" classname="WebTest.TestSuit" time="11.325"/>
+  <testcase name="userShouldBeAbleToAddNewCommentOnNopCommerceWeb" classname="WebTest.TestSuit" time="11.595"/>
+  <testcase name="userShouldBeAbleToVerifyCurrencyChange" classname="WebTest.TestSuit" time="2.512">
+    <failure message="The following asserts failed:&#10;	$ not foundЂ1032.00 expected [true] but found [false],&#10;	$ not foundЂ1548.00 expected [true] but found [false],&#10;	$ not foundЂ210.70 expected [true] but found [false],&#10;	$ not foundЂ21.50 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	$ not foundЂ1032.00 expected [true] but found [false],
+	$ not foundЂ1548.00 expected [true] but found [false],
+	$ not foundЂ210.70 expected [true] but found [false],
+	$ not foundЂ21.50 expected [true] but found [false]
+	at WebTest.TestSuit.userShouldBeAbleToVerifyCurrencyChange(TestSuit.java:143)
+</failure>
+    <system-out><![CDATA[We are using... chromebrowser
+Kashyup_shah
+e85e33aa-4235-4846-938b-9c49abfd477d
+?1032.00
+***************
+?1548.00
+***************
+?210.70
+***************
+?21.50
+***************
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 39617
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mar 25, 2020 11:17:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585135072.747][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135072.850][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135072.955][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135073.058][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135073.281][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135073.393][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135073.497][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135073.601][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135073.702][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135073.804][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135073.906][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135074.007][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135074.159][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135074.262][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135074.369][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135074.473][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135074.575][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135074.677][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135074.779][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135074.892][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135075.000][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135075.101][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135075.203][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135075.304][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135077.505][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAddToCartButtonIsPresentInAllFeaturedProducts" classname="WebTest.TestSuit" time="0.05">
+    <failure message="Some of items does not have ADD TO CART button expected [4] but found [1]" type="java.lang.AssertionError">java.lang.AssertionError: Some of items does not have ADD TO CART button expected [4] but found [1]
+	at WebTest.TestSuit.verifyAddToCartButtonIsPresentInAllFeaturedProducts(TestSuit.java:151)
+</failure>
+    <system-out><![CDATA[We are using... chromebrowser
+Kashyup_shah
+e85e33aa-4235-4846-938b-9c49abfd477d
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 6614
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mar 25, 2020 11:18:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585135083.795][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135083.900][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135084.072][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135084.189][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135084.428][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135084.530][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135084.632][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135084.733][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135084.836][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135084.939][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAddToCompareButtonForEachProduct" classname="WebTest.TestSuit" time="0.079">
+    <failure message="£ not found  expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: £ not found  expected [true] but found [false]
+	at WebTest.TestSuit.verifyAddToCompareButtonForEachProduct(TestSuit.java:110)
+</failure>
+    <system-out><![CDATA[We are using... chromebrowser
+Kashyup_shah
+e85e33aa-4235-4846-938b-9c49abfd477d
+$1,200.00
+*************
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 23321
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mar 25, 2020 11:18:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585135092.235][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135092.337][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135092.438][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135092.543][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135092.656][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135092.830][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135092.962][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135093.072][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135093.305][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135093.415][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135093.519][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135093.623][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135093.728][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135093.837][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135093.941][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135094.045][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135094.147][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135094.252][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135094.354][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135094.461][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585135094.565][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+</testsuite>
